@@ -29,3 +29,46 @@ LDA assumes that a single document can contribute to multiple topics simultaneou
 
 The goal of the analysis is to investigate participants’ responses of the questionnaire.
 
+# Steps
+
+## 1. Preparing the text for preprocessing
+    1a. Spell check
+    1b. Expand contractions
+
+## 2. Text preprocessing
+
+     2a. Read in data
+ 
+     2b. Tokenization
+     
+     2c. Stop Word Removal
+     
+     2d. Lemmatization
+     
+     2e. Bigrams and Trigrams
+     
+     2f. Exclude terms in > 99% and < 1% of documents
+     
+     2g. Generate Corpus and Dictionary
+ 
+
+## 2. Selecting the number of topics (k)
+ 
+     2a. Computing Model Perplexity
+
+
+## 3. Model Results
+
+     3a. pyLDAvis visualization to assist with Topic Labeling
+     
+     3b. Topic Mixtures (Document-Term Matrix)
+
+ 
+# Helpful Links:
+
+https://medium.com/@lettier/how-does-lda-work-ill-explain-using-emoji-108abf40fa7d
+
+     
+https://towardsdatascience.com/light-on-math-machine-learning-intuitive-guide-to-latent-dirichlet-allocation-437c81220158
+
+
