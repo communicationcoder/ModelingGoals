@@ -29,22 +29,3 @@ LDA assumes that a single document can contribute to multiple topics simultaneou
 
 The goal of the analysis is to investigate participants’ responses of the questionnaire.
 
-###  Steps of the analysis:
-
-1. Preparing data for LDA
-        a. Spell check
-        b. Expand contractions
-        c. Read the data 
-        d. Check data integrity
-        e. Delete missing values
-2. Text preprocessing
-        a. Tokenization
-        b. Lemmatization  
-        c. Stop Word Removal
-        d. Bigrams and Trigrams
-        e. Exclude terms in > 99% and < 1% of documents
-        f. Generate Corpus and Dictionary
-3. Model selection (Selecting the number of topics (k))
-        a. Computing Model Perplexity
-        b. Analyzing model results through pyLDAvis visualization
-        c. Saving selected model results
