@@ -8,7 +8,7 @@ The utility of topic modeling methods is their capability to uncover unobserved 
 
 
 
-This notebook applies LDA modeling to an experimental dataset investigating participants' goal inferences. 
+This notebook applies LDA modeling to an experimental dataset investigating participants' Instagram use goals. 
 
 
 ### Key python libraries:
