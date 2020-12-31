@@ -1,5 +1,5 @@
 # ModelingGoals
-This notebook applies LDA modeling to a an experimental dataset investigating participants' Instagram use goals. 
+This notebook applies LDA modeling to a an experimental dataset investigating participants' Instagram goal activation. 
 
 ## LDA topic modeling
 
